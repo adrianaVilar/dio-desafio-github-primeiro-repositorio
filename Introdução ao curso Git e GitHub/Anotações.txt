@@ -1,2 +1,46 @@
+comandos cmd windows:
+cd: entrar na pasta
+dir/ls: listar o que tem dentro da pasta (arquivos e pastas)
+mkdir: criar uma pasta
+vim: criar arquivo (incluir extens�o)
+del / rmdir: deletar arquivos ou pastas
+-a: mostra arquivos ocultos
+mv: mover arquivo
+
+
+git/github:
+git init: inicializa um repositório do git dentro da pasta em questão
+git status: saber em qual dos 4 status abaixo está
+git commit: 
+-m: para escrever a mensagem do commit
+git add *: pegar TODOS os arquivos que foram modificados (perigoso)
+Untracked: quando o git ainda "não sabe" que o arquivo existe
+Unmodified: arquivo dentro do git que ainda não sofreu alteração
+Modified: arq que sofreu alteração do SHA1
+Staged: quando o arq está pronto para ir para o commit (depois daqui volta para o unmodified)
+--global: em tudo
+--unset: remover
+git remote -v: lista as listas de repositório remoto
+
+SHA1: é uma forma curta de representar um arquivo, com um conjunto de 40 caracteres
+
+
+Objetos fundamentais:
+blob - bloco "unitário"
+tree (árvore) - abrange outras árvores com blobs
+commit - abrange árvore, parente, autor, mensagem, timestamp
+
+
+Chaves SSH e Tokens:
+Permite "clonar" repositórios privados do github sem colocar senha
+Comando: git clone CHAVESSHDOGITHUB
+
+
+Markdown:
+arquivo.md
+Utiliza "#" para estilizar os t�tulos, semelhante a h1, h2... do html
+
+
 Link para download do Git para Windows: https://git-scm.com/download/win
-O Git Bash é um terminal extendido para otimizar o uso do Git.
+
+O Git Bash � um terminal extendido para otimizar o uso do Git.
